@@ -1,0 +1,83 @@
+.navigation{
+  position: fixed;
+  width: 400px;
+  height: 100%;
+  background-color: #fff;
+  color: #000;
+  text-align: center;
+  overflow-y: scroll;
+  .header-logo{
+    width: 400px;
+    height: 50px;
+    margin: 0 auto;
+    .about{
+      position: absolute;
+      top: 12px;
+      left: 20px;
+      float: left;
+    }
+    .logo-image{
+      position: absolute;
+      left: 40px;
+      width: 200px;
+      height: 50px;
+      margin: 0 auto;
+      background-image: url(../../assets/images/kanakohondatokyo-logo.svg);
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+  }
+  .menu{
+    .category{
+      position: relative;
+      display: inline-block;
+      font-size: 5px;
+      font-weight: bold;
+      span {
+        position: relative;
+        z-index: 2;
+        display: inline-block;
+        border-radius: 2px;
+        letter-spacing: 50px;
+        left: -25px;
+        transform:translateX(50px);
+        -webkit-transform:translateX(50px);
+        -moz-transform:translateX(50px);
+        -ms-transform:translateX(50px);
+      }
+      .border {
+        content: " ";
+        background-color: #e3dfd8;
+        position: absolute;
+        top: 7px;
+        left: -25px;
+        width: 78%;
+        height: 8px;
+        transform:translateX(50px);
+        -webkit-transform:translateX(50px);
+        -moz-transform:translateX(50px);
+        -ms-transform:translateX(50px);
+      }
+    }
+    li.work{
+      margin: 8px 0 16px 0;
+      p.title-color{
+        letter-spacing: 4.85px;
+        padding: 4px 0 4px 0;
+        margin: 0 auto;
+      }
+      p.title-pan{
+        letter-spacing: 2px;
+        padding: 4px 0 4px 0;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+p{
+  font-size: 10px;
+  font-weight: 700;
+}
+span{
+  font-size: 5px;
+}

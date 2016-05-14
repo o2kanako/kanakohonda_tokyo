@@ -13,6 +13,8 @@
   }
 }
 
+.clearfix { @include clearfix; }
+
 @mixin valign {
   position: absolute;
   top: 50%;
